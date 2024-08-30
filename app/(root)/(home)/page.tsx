@@ -3,7 +3,7 @@
 import MeetingTypeList from '@/components/MeetingTypeList';
 import { useUser } from '@clerk/nextjs';
 import { Client } from '@clerk/nextjs/server';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 
 const Home = () => {
   const now = new Date();
