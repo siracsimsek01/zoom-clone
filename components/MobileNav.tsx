@@ -5,9 +5,6 @@ import {
     Sheet,
     SheetClose,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
 import Image from 'next/image'
@@ -20,10 +17,6 @@ import { cn } from '@/lib/utils'
 const MobileNav = () => {
     const pathname = usePathname();
     return (
-
-
-
-
         <section className='w-full max-w-[264px]'>
             <Sheet>
                 <SheetTrigger asChild>
