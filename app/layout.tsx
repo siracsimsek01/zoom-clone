@@ -27,7 +27,7 @@ export default function RootLayout({
       <ClerkProvider
         appearance={{
           layout: {
-            logoImageUrl: '/icons/zoom-logo.svg',
+            logoImageUrl: '/icons/zoom-logo.png',
             socialButtonsVariant: 'iconButton'
           },
           variables: {
