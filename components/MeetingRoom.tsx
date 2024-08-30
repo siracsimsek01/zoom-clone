@@ -14,7 +14,7 @@ import { LayoutList, Users } from 'lucide-react'
 import { useSearchParams } from 'next/navigation'
 import EndCallButton from './EndCallButton'
 import Loader from './Loader'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 
 type CallLayoutType = 'grid' | 'speaker-left' | 'speaker-right'
