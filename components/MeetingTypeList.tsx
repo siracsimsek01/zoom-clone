@@ -109,19 +109,19 @@ const MeetingTypeList = () => {
                     <div className='flex flex-col gap-2.5'>
                         <label className='text-base text-normal leading-[22px] text-sky-2'>Add a description</label>
                         <Textarea className='border-none bg-dark-3 focus-visible:ring-0 focus-visible:ring-offset-0'
-                        onChange={(e) => setValues({...values, description: e.target.value})}
+                            onChange={(e) => setValues({ ...values, description: e.target.value })}
                         />
                     </div>
                     <div className='flex w-full flex-col gap-2.5'>
-                    <label className='text-base text-normal leading-[22px] text-sky-2'>Select Date and Time</label>
-                    <ReactDatePicker 
-                    selected={values.dateTime}
-                    showTimeSelect
-                    timeFormat='"HH:mm'
-                    timeIntervals={15}
-                    dateFormat="MMMM d, yyyy h:mm aa"
-                    className='w-full rounded bg-dark-3 p-2 focus:outline-none'
-                    />
+                        <label className='text-base text-normal leading-[22px] text-sky-2'>Select Date and Time</label>
+                        <ReactDatePicker
+                            selected={values.dateTime}
+                            showTimeSelect
+                            timeFormat='"HH:mm'
+                            timeIntervals={15}
+                            dateFormat="MMMM d, yyyy h:mm aa"
+                            className='w-full rounded bg-dark-3 p-2 focus:outline-none'
+                        />
                     </div>
                 </MeetingModal>
             ) : (
